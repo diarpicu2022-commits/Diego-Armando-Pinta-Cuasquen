@@ -1,0 +1,8 @@
+Voltaje: 120.5 V
+Corriente: 5.2 A
+Voltaje: 120.5 V
+Corriente: 5.2 A
+Voltaje: 120.5 V
+Corriente: 5.2 A
+Voltaje: 120.5 V
+Corriente: 5.2 A
