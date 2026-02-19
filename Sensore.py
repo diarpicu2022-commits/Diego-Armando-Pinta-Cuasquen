@@ -14,13 +14,13 @@ class Pila:
         return len(self.elementos) == 0
 
 
-# 🔹 Clase base
+# Clase base
 class Menu:
     def __init__(self, sistema):
         self.sistema = sistema
 
 
-# 🔹 Menú Principal
+# Menú Principal
 class MenuPrincipal(Menu):
     def mostrar(self):
         print("\n===== MENÚ PRINCIPAL =====")
@@ -40,7 +40,7 @@ class MenuPrincipal(Menu):
             print("Opción inválida")
 
 
-# 🔹 Configuración
+# Configuración
 class MenuConfiguracion(Menu):
     def mostrar(self):
         print("\n===== CONFIGURACIÓN =====")
@@ -59,7 +59,7 @@ class MenuConfiguracion(Menu):
             print("Opción inválida")
 
 
-# 🔹 Calibración
+# Calibración
 class MenuCalibracion(Menu):
     def mostrar(self):
         print("\n===== CALIBRACIÓN =====")
@@ -78,7 +78,7 @@ class MenuCalibracion(Menu):
             print("Opción inválida")
 
 
-# 🔹 Sistema
+# Sistema
 class Sistema:
     def __init__(self):
         self.historial = Pila()
@@ -99,7 +99,7 @@ class Sistema:
         self.menu_actual = MenuPrincipal(self)
 
 
-# 🔥 Simulación principal
+# Simulación principal
 sistema = Sistema()
 
 while True:
